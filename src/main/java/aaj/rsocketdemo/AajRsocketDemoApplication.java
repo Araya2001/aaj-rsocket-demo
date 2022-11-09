@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication
-@PropertySource("classpath:${PROPERTY_FILE}.properties")
+@PropertySource("classpath:dev.properties")
 @EnableAsync
 public class AajRsocketDemoApplication {
 
